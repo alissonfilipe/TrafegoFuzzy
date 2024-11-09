@@ -13,10 +13,15 @@ Para começar a desenvolver o trabalho em lógica fuzzy, você pode usar a bibli
 Toda instalação de biblioteca é como o comando descrito na instalação das dependências
 
 # instalação das dependências
-`pip install -r requirements.txt` 
-- esse comando serve para a instalação das dependências
-`pip show numpy`
-- mostrar a versão da dependência
+<hr>
+
+`pip install -r requirements.txt` - esse comando serve para a instalação das dependências
+
+<br>
+
+`pip show numpy` - mostrar a versão da dependência
+
+<br>
 
 # Anotações
 
