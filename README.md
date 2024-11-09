@@ -17,11 +17,11 @@ Toda instalação de biblioteca é como o comando descrito na instalação das d
 
 `pip install -r requirements.txt` - esse comando serve para a instalação das dependências
 
-<br>
+<hr>
 
 `pip show numpy` - mostrar a versão da dependência
 
-<br>
+<hr>
 
 # Anotações
 
