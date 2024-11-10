@@ -1,28 +1,28 @@
 # árvore do projeto
 
 ControleDeTrafegoUrbano/
-├── src/                           # Código principal do projeto
-│   ├── main.py                    # Arquivo principal que executa o sistema de controle de tráfego
-│   ├── fuzzy_controller.py        # Código para configurar e calcular o controle fuzzy
-│   ├── rules/                     # Pasta para definir regras fuzzy complexas
-│   │   ├── traffic_rules.py       # Regras específicas para o controle de tráfego
-│   └── utils/                     # Funções auxiliares que podem ser reutilizadas
-│       └── fuzzy_utils.py         # Funções de apoio ao sistema fuzzy
-│
-├── data/                          # Dados para simulação (ex. valores históricos ou testes)
-│   └── example_inputs.json        # Exemplos de inputs para teste
-│
-├── tests/                         # Testes automatizados para o projeto
-│   └── test_fuzzy_controller.py   # Testes das funções do controlador fuzzy
-│
-├── docs/                          # Documentação do projeto
-│   └── README.md                  # Documentação geral e instruções de uso
-│
-├── archived_codes/                # Códigos antigos para estudo e referência
-│   └── old_controller_version.py  # Versões anteriores ou experimentais do controlador fuzzy
-│
-├── requirements.txt               # Dependências do projeto
-└── .env                           # Arquivo do ambiente virtual (opcional, pode ficar na raiz)
+├── src/                           # Código principal do projeto<br>
+│   ├── main.py                    # Arquivo principal que executa o sistema de controle de tráfego<br>
+│   ├── fuzzy_controller.py        # Código para configurar e calcular o controle fuzzy<br>
+│   ├── rules/                     # Pasta para definir regras fuzzy complexas<br>
+│   │   ├── traffic_rules.py       # Regras específicas para o controle de tráfego<br>
+│   └── utils/                     # Funções auxiliares que podem ser reutilizadas<br>
+│       └── fuzzy_utils.py         # Funções de apoio ao sistema fuzzy<br>
+│<br>
+├── data/                          # Dados para simulação (ex. valores históricos ou testes)<br>
+│   └── example_inputs.json        # Exemplos de inputs para teste<br>
+│<br>
+├── tests/                         # Testes automatizados para o projeto<br>
+│   └── test_fuzzy_controller.py   # Testes das funções do controlador fuzzy<br>
+│<br>
+├── docs/                          # Documentação do projeto<br>
+│   └── README.md                  # Documentação geral e instruções de uso<br>
+│<br>
+├── archived_codes/                # Códigos antigos para estudo e referência<br>
+│   └── old_controller_version.py  # Versões anteriores ou experimentais do controlador fuzzy<br>
+│<br>
+├── requirements.txt               # Dependências do projeto<br>
+└── .env                           # Arquivo do ambiente virtual (opcional, pode ficar na raiz)<br>
 
 
 # Controle de Tráfego Urbano
