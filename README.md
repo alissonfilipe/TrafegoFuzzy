@@ -25,8 +25,9 @@ Toda instalação de biblioteca é como o comando descrito na instalação das d
 
 # Anotações
 
-acho que vou ter que usar um arquivo txt para dizer as dependências do projeto
+as dependências do projeto estão armazenadas no ambiente virtual
 - nesse projeto usamos o ambiente venv `ambiente virtual` com as dependências
 pois isso é necessários rodar o comando
 - `python -m venv .env`
 - o `.env` é o nome do ambiente virtual
+- `.env\Scripts\activate` caminho para ativação do ambiente virtual
