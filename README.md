@@ -25,6 +25,13 @@ ControleDeTrafegoUrbano/
 └── .env                           # Arquivo do ambiente virtual (opcional, pode ficar na raiz)<br>
 
 
+# coisas para resolver
+- como definimos a função triângulo
+- a saída são apenas os gráficos `precisda mostrar gráficos com resultados`
+- definição dos conjuntos
+- o que define fluxo lento ou rápido
+
+
 # Controle de Tráfego Urbano
 
 Desenvolver um sistema de gerenciamento de tráfego que utiliza lógica fuzzy para otimizar os sinais de trânsito com base em variáveis como fluxo de veículos, condições climáticas e horários de pico.

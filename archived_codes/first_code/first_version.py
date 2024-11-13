@@ -1,6 +1,7 @@
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
+import matplotlib.pyplot as plt
 
 # Variáveis de entrada
 fluxo_pista_principal = ctrl.Antecedent(np.arange(0, 101, 1), 'fluxo_pista_principal')
@@ -36,4 +37,11 @@ simulador.input['fluxo_pista_principal'] = 70
 simulador.input['fluxo_pista_secundaria'] = 20
 simulador.compute()
 
-print(simulador.output['tempo_semaforo'])
+print("Tempo de semáforo:", simulador.output['tempo_semaforo'])
+
+# Plotando as funções de pertinência
+fluxo_pista_principal.view()
+fluxo_pista_secundaria.view()
+tempo_semaforo.view()
+
+plt.show()
