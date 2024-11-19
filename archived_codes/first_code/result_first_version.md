@@ -40,7 +40,7 @@ Isso é controlado pelas funções de pertinência triangulares. Cada ponto no i
 Gráficos e Resultados
 Para complementar a visualização, o código já desenha os gráficos das funções de pertinência. Além disso, você pode plotar o resultado final para uma entrada específica:
 
-´´´python
+python´´´
 Copiar código
 tempo_semaforo.view(sim=simulador)
 plt.show()
