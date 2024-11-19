@@ -1,14 +1,16 @@
 # A saída são apenas os gráficos?
 Não. Além dos gráficos das funções de pertinência, o código também mostra o resultado numérico do tempo de semáforo calculado pelo sistema fuzzy. Este resultado é exibido pelo print, com a linha:
 
-python```
 
+
+
+
+```python
 print("Tempo de semáforo:", simulador.output['tempo_semaforo'])
 ```
-Se você quer destacar mais os resultados, pode adicionar um formato mais estruturado ou gráficos adicionais, como:
+- Se você quer destacar mais os resultados, pode adicionar um formato mais estruturado ou gráficos adicionais, como:
 
-python```
-
+```python
 print(f"O tempo calculado para o semáforo é: {simulador.output['tempo_semaforo']:.2f} segundos.")
 ```
 # Definição dos conjuntos
@@ -41,11 +43,8 @@ Isso é controlado pelas funções de pertinência triangulares. Cada ponto no i
 Gráficos e Resultados
 Para complementar a visualização, o código já desenha os gráficos das funções de pertinência. Além disso, você pode plotar o resultado final para uma entrada específica:
 
-<br>
-
-python´´´
-Copiar código
+```python
 tempo_semaforo.view(sim=simulador)
 plt.show()
-´´´
+```
 Este comando visualiza o grau de pertinência do resultado calculado (tempo do semáforo), destacando a faixa em que ele se encaixa.
