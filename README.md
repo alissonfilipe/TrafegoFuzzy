@@ -27,7 +27,7 @@ ControleDeTrafegoUrbano/
 
 # coisas para resolver
 - como definimos a função triângulo
-- a saída são apenas os gráficos `precisda mostrar gráficos com resultados`
+- a saída são apenas os gráficos `precisa mostrar gráficos com resultados`
 - definição dos conjuntos
 - o que define fluxo lento ou rápido
 
