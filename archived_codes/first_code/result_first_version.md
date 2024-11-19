@@ -4,8 +4,9 @@ Não. Além dos gráficos das funções de pertinência, o código também mostr
 python```
 
 print("Tempo de semáforo:", simulador.output['tempo_semaforo'])
-Se você quer destacar mais os resultados, pode adicionar um formato mais estruturado ou gráficos adicionais, como:
 ```
+Se você quer destacar mais os resultados, pode adicionar um formato mais estruturado ou gráficos adicionais, como:
+
 python```
 
 print(f"O tempo calculado para o semáforo é: {simulador.output['tempo_semaforo']:.2f} segundos.")
@@ -39,6 +40,8 @@ Isso é controlado pelas funções de pertinência triangulares. Cada ponto no i
 
 Gráficos e Resultados
 Para complementar a visualização, o código já desenha os gráficos das funções de pertinência. Além disso, você pode plotar o resultado final para uma entrada específica:
+
+<br>
 
 python´´´
 Copiar código
